@@ -1,3 +1,3 @@
 //Escribe un programa de una sola línea que escriba en la pantalla el resultado de sumar 3 + 5.
-const resultado=3+5
-document.writeln("3 + 5 ="+resultado)
+
+document.writeln("3 + 5 ="+(3+5))
