@@ -1,9 +1,11 @@
 //voy a restringir la cant de caracteres de la palabra que ingresa el usuario
 
-const frase= prompt("Ingresa una frase de hasta 5 caracteres")
+const frase= prompt("Ingresa una frase de hasta 5 caracteres").toLowerCase()
 
 console.log(frase)
 console.log(frase.length)
+console.log(frase.toUpperCase()) //transformar un string a mayuscula
+console.log(frase.toLowerCase()) //transformar un string a minuscula
 console.log(frase.charAt(0))
 
 if(frase.length <=5){
